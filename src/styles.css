@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav i {
+    @apply text-3xl;
+}
+.title {
+    @apply tracking-tight text-xl font-extrabold;
+}
+.card {
+    @apply bg-zinc-200 w-full h-12 rounded-xl flex items-center gap-2 p-3;
+}
+.style {
+    @apply h-10 w-10 bg-cover rounded-xl ;
+}
+.card-rounded {
+    @apply rounded-xl h-12 w-16 bg-zinc-200;
+}
